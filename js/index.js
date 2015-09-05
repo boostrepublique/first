@@ -12,9 +12,6 @@ jQuery('document').ready(function () {
       }).loadBackgroundPhoto();
     })(images.eq(i));
   }
-
-//  jQuery(window).on('resize', setSizes);
-//  jQuery(window).on('orientationchange', setSizes);
 });
 
 jQuery(window).load(function () {
