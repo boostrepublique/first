@@ -28,7 +28,7 @@ jQuery(window).load(function () {
 });
 
 var setSize = function (image) {
-  var height = (jQuery('.album').width() - 20) / 1.5;
+  var height = (jQuery('.album').width()) / 1.5;
 
   if (height > window.innerHeight) {
     image.height(window.innerHeight - 20)
