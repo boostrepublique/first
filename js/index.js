@@ -13,8 +13,8 @@ jQuery('document').ready(function () {
     })(images.eq(i));
   }
 
-  jQuery(window).on('resize', setSizes);
-  jQuery(window).on('orientationchange', setSizes);
+//  jQuery(window).on('resize', setSizes);
+//  jQuery(window).on('orientationchange', setSizes);
 });
 
 jQuery(window).load(function () {
