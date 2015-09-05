@@ -78,7 +78,7 @@ body {
   width: 100%;
   height: 230px;
   display: inline-block;
-  background: url(../images/loader.gif) no-repeat 200px center;
+  background: url(../images/loader.gif) no-repeat 100px center;
 }
 
 .album .image-loader .image {
@@ -151,6 +151,7 @@ body {
 
   .album .image-loader {
     height: 940px;
+    background: url(../images/loader.gif) no-repeat 200px center;
   }
 
   .album .image-loader .image {
