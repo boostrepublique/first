@@ -1,6 +1,7 @@
 jQuery('document').ready(function () {
-  var images = jQuery('.image-loader');
+  setSizes();
 
+  var images = jQuery('.image-loader');
   for (var i = 0; i < images.length; i++) {
     (function(image) {
       imageLoader({

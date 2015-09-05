@@ -75,7 +75,6 @@ body {
 }
 
 .album .image-loader {
-  width: 90%;
   height: 230px;
   display: inline-block;
   background: url(../images/loader.gif) no-repeat center 100px;
