@@ -18,17 +18,17 @@
 
 body {
   text-align: center;
-  background: url(../images/bg_cover.jpg) #1E2023 no-repeat top center;
+  background: url(../images/bg_cover.jpg) no-repeat top center;
   color: #EEE;
   font-family: 'edmondsansregular', 'sans-serif';
 }
 
 .container {
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0), #1E2023 400px, #EEE);
-  background: -moz-linear-gradient-gradient(rgba(255, 255, 255, 0), #1E2023 400px, #EEE);
-  background: -ms-linear-gradient-gradient(rgba(255, 255, 255, 0), #1E2023 400px, #EEE);
-  background: -o-linear-gradient-gradient(rgba(255, 255, 255, 0), #1E2023 400px, #EEE);
-  background: linear-gradient-gradient(rgba(255, 255, 255, 0), #1E2023 400px, #EEE);
+  background: -webkit-linear-gradient(rgba(73, 102, 144, 0), #1E2023 400px, #EEE);
+  background: -moz-linear-gradient(rgba(73, 102, 144, 0), #1E2023 400px, #EEE);
+  background: -ms-linear-gradient(rgba(73, 102, 144, 0), #1E2023 400px, #EEE);
+  background: -o-linear-gradient(rgba(73, 102, 144, 0), #1E2023 400px, #EEE);
+  background: linear-gradient(rgba(73, 102, 144, 0), #1E2023 400px, #EEE);
   width: 100%;
 }
 
@@ -136,11 +136,11 @@ body {
 .footer {
   padding-top: 10px;
   padding-bottom: 80px;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0), #fff);
-  background: -moz-linear-gradient-gradient(rgba(255, 255, 255, 0), #fff);
-  background: -ms-linear-gradient-gradient(rgba(255, 255, 255, 0), #fff);
-  background: -o-linear-gradient-gradient(rgba(255, 255, 255, 0), #fff);
-  background: linear-gradient-gradient(rgba(255, 255, 255, 0), #fff);
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0), #FFEBD6);
+  background: -moz-linear-gradient(rgba(255, 255, 255, 0), #FFEBD6);
+  background: -ms-linear-gradient(rgba(255, 255, 255, 0), #FFEBD6);
+  background: -o-linear-gradient(rgba(255, 255, 255, 0), #FFEBD6);
+  background: linear-gradient(rgba(255, 255, 255, 0), #FFEBD6);
   border-bottom: 4px solid #DDD;
 }
 
@@ -160,7 +160,7 @@ body {
 }
 
 .social #fb {
-  width: 56px;
+  width: 65px;
   height: 20px;
   margin-right: 10px;
 }
@@ -175,11 +175,11 @@ body {
 
 @media (min-width: 992px) {
   .container {
-    background: -webkit-linear-gradient(rgba(255, 255, 255, 0), #1E2023 500px, #EEE);
-    background: -moz-linear-gradient-gradient(rgba(255, 255, 255, 0), #1E2023 500px, #EEE);
-    background: -ms-linear-gradient-gradient(rgba(255, 255, 255, 0), #1E2023 500px, #EEE);
-    background: -o-linear-gradient-gradient(rgba(255, 255, 255, 0), #1E2023 500px, #EEE);
-    background: linear-gradient-gradient(rgba(255, 255, 255, 0), #1E2023 500px, #EEE);
+    background: -webkit-linear-gradient(rgba(73, 102, 144, 0), #1E2023 500px, #EEE);
+    background: -moz-linear-gradient(rgba(73, 102, 144, 0), #1E2023 500px, #EEE);
+    background: -ms-linear-gradient(rgba(73, 102, 144, 0), #1E2023 500px, #EEE);
+    background: -o-linear-gradient(rgba(73, 102, 144, 0), #1E2023 500px, #EEE);
+    background: linear-gradient(rgba(73, 102, 144, 0), #1E2023 500px, #EEE);
     width: 100%;
   }
 
