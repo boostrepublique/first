@@ -99,6 +99,7 @@ body {
 
 .album .info .place {
   opacity: .5;
+  margin-bottom: 10px;
 }
 .album .info .place.dark {
   color: #1E2023;
@@ -160,7 +161,7 @@ body {
 }
 
 .social #fb {
-  width: 65px;
+  width: 70px;
   height: 20px;
   margin-right: 10px;
 }
@@ -195,5 +196,9 @@ body {
 
   .album .image-loader .image {
     height: 940px;
+  }
+
+  .album .info .place {
+    margin-bottom: 0px;
   }
 }
