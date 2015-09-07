@@ -13,6 +13,7 @@ jQuery('document').ready(function () {
     })(images.eq(i));
   }
 
+  jQuery(window).on('load', setSizes);
   jQuery(window).on('resize', setSizes);
   jQuery(window).on('orientationchange', setSizes);
 });
@@ -28,12 +29,11 @@ jQuery(window).load(function () {
 });
 
 var setSize = function (image) {
-  var height = (jQuery('.album').width()) / 1.5;
-  image.height(height)
-       .find('.image').height(height);
+  var height = jQuery('.image-loader').eq(0).width() / 1.5;
+  image.height(height).find('.image').height(height);
 };
 
 var setSizes = function (image) {
-  var height = (jQuery('.album').width() - 20) / 1.5;
-  jQuery('.image-loader, .image').height(jQuery('.image-loader').eq(0).width() / 1.5);
+  var height = jQuery('.image-loader').eq(0).width() / 1.5;
+  jQuery('.image-loader, .image').height(height);
 };

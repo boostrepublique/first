@@ -104,15 +104,9 @@ body {
   color: #1E2023;
 }
 
-.album .info .social {
-  display: inline-block;
-  float: right;
-  width: auto;
-}
-.album .info .social #fb {
-  width: 56px;
-  height: 20px;
-  margin-right: 10px;
+.album .info .place i {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .album .time b {
@@ -140,18 +134,40 @@ body {
 }
 
 .footer {
-  padding-top: 100px;
+  padding-top: 10px;
   padding-bottom: 80px;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0), #fffde6);
-  background: -moz-linear-gradient-gradient(rgba(255, 255, 255, 0), #fffde6);
-  background: -ms-linear-gradient-gradient(rgba(255, 255, 255, 0), #fffde6);
-  background: -o-linear-gradient-gradient(rgba(255, 255, 255, 0), #fffde6);
-  background: linear-gradient-gradient(rgba(255, 255, 255, 0), #fffde6);
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0), #fff);
+  background: -moz-linear-gradient-gradient(rgba(255, 255, 255, 0), #fff);
+  background: -ms-linear-gradient-gradient(rgba(255, 255, 255, 0), #fff);
+  background: -o-linear-gradient-gradient(rgba(255, 255, 255, 0), #fff);
+  background: linear-gradient-gradient(rgba(255, 255, 255, 0), #fff);
+  border-bottom: 4px solid #DDD;
+}
+
+.social b {
+  width: auto;
+  margin-bottom: 40px;
+  border: 4px solid #DDD;
+  padding: 10px 15px 2px 15px;
+  display: inline-block;
+}
+.social:before {
+  content: '|';
+  font-size: 45px;
+  line-height: 45px;
+  display: block;
+  color: #DDD;
+}
+
+.social #fb {
+  width: 56px;
+  height: 20px;
+  margin-right: 10px;
 }
 
 .footer .logo.left {
   width: 110px;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 .footer .logo.right {
   width: 80px;
